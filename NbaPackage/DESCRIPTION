@@ -1,0 +1,16 @@
+Package: NbaPackage
+Title: Return summary stats for NBA players
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Paolo",
+           family = "Baudissone",
+           role = c("aut", "cre"),
+           email = "pb2706@@gsb.columbia.edu")
+Description: The package is made of several functions that help the user retrieving several statitics of interests for the past NBA seasons.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports:
+  dplyr (>= 0.8.1)
+  
