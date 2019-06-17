@@ -10,5 +10,5 @@
 
 corr_nba <- function(year_in){
   nba_data %>% dplyr::filter(Year==year_in) %>% purrr::keep(is.numeric) %>%
-    select(-Year) %>% stats::cor()
+    dplyr::select(-Year) %>% stats::cor()
 }
