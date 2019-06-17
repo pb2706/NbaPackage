@@ -5,12 +5,12 @@ Authors@R:
     person(given = "Paolo",
            family = "Baudissone",
            role = c("aut", "cre"),
-           email = "pb2706@@gsb.columbia.edu")
-Description: The package is made of several functions that help the user retrieving several statitics of interests for the past NBA seasons.
+           email = "pb2706@gsb.columbia.edu")
+Description: The package is made of several functions used for the NBA dataset.
+Maintainer: Paolo Baudissone <pb2706@gsb.columbia.edu>
+Depends: R (>= 3.6.0), dplyr (>= 0.8.1), tidyverse
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-Imports:
-  dplyr (>= 0.8.1)
   
